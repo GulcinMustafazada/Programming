@@ -1,0 +1,6 @@
+1.border-box nedir box sizing+
+2. css-de text duzeltmek ucun lazimli kodlar+
+3.display novler aralarindaki ferqler(numuneler)
+4. flex ve gride her ozelliyine heresine bir numune (fr, faiz)
+5.after,before
+6. input numune button instagram login duzeltmek

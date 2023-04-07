@@ -1,0 +1,8 @@
+.text{
+    text-decoration: line-through;
+    text-decoration-color: brown;
+    text-decoration-style: dotted;
+    text-shadow: 2px 2px blue;
+    text-transform: uppercase;
+    line-height: 2;
+}

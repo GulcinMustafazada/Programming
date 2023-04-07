@@ -1,0 +1,5 @@
+1. Git, git bash ve node js in qurasdirilmasi+
+2. Vs code ile baglantisinin yaradilmasi+
+3. Vs codeda onemli extensionlarin qurasdirilmasi es6 live share +
+4. 3 dene extension tapmaq vacib olan  ---> code runner+, prettier+ , gitlens, ESlint,, path intellisense+, (Quokka.js)
+5.Html 5 nedir? nezeri oyrenmek+

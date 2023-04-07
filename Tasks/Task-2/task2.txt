@@ -1,0 +1,7 @@
+1. w3schools html learn bolumu incelemey(turkce)+
+2. seo nedir+
+3. htmlde 1 sehifelik 3 bolumlu sayt 1-ci bolumde 3 dene riyazi fiqur simmetrik ve eyni olcude ferqli renglerde olacaqlar.
+2-ci bolumde 1 sekil 1 vidyo 1 denede musiqi olacaq.
+3-cu bolumde sehifeni tam yari bolecem sol terefde sekil sag terefe h4 h3 h2 h1 span ile cumleler
+Note-tapsirigi ederken yalniz htmlden istifade etmek+
+4. index nedir

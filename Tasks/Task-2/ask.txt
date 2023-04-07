@@ -1,0 +1,2 @@
+1.divi nece marginsiz flexsiz ortaya getirmek olar.
+2.align-items niye islemir :D yada isledenmirem
