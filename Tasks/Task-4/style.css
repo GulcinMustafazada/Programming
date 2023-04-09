@@ -1,49 +1,82 @@
-.img1{
-    width:200px;
-    height:200px;
-    animation-name: example1;
-    animation-duration: 10s; position: relative;
-  
-
+.img1 {
+  width: 200px;
+  height: 200px;
+  animation-name: example1;
+  animation-duration: 10s;
+  position: relative;
 }
-.img2{
-    width:200px;
-    height:200px;
-    animation-name: example2;
-    animation-duration: 10s; position: relative;
-  
+.img2 {
+  width: 200px;
+  height: 200px;
+  animation-name: example2;
+  animation-duration: 10s;
+  position: relative;
 }
-.img3{
-    width:200px;
-    height:200px;
-    animation-name: example3;
-    animation-duration: 10s; position: relative;
-  
+.img3 {
+  width: 200px;
+  height: 200px;
+  animation-name: example3;
+  animation-duration: 10s;
+  position: relative;
 }
-.animation-examples{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    gap:100px;
-    
-   
-   
+.animation-examples {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
 }
-@keyframes example1{
-    0%   { left:0px; top:0px;}
-    25%  { left:600px; top:0px;}
-    50%  { left:100px; top:420px;}
-    75%  {left:0px; top:300px;}
-    100% { left:300px; top:300px; border-radius: 50%;}
+@keyframes example1 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 600px;
+    top: 0px;
+  }
+  50% {
+    left: 100px;
+    top: 420px;
+  }
+  75% {
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    left: 300px;
+    top: 300px;
+    border-radius: 50%;
+  }
 }
-@keyframes example2{
-    0%  {top:0px}
-    100% {top:300px;border-radius: 50%;}
+@keyframes example2 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 300px;
+    border-radius: 50%;
+  }
 }
-@keyframes example3{
-    0%   { right:0px; top:0px;}
-    25%  { right:600px; top:0px;}
-    50%  { right:100px; top:420px;}
-    75%  { right:0px; top:300px;}
-    100% {right:300px; top:300px; border-radius: 50%;}
+@keyframes example3 {
+  0% {
+    right: 0px;
+    top: 0px;
+  }
+  25% {
+    right: 600px;
+    top: 0px;
+  }
+  50% {
+    right: 100px;
+    top: 420px;
+  }
+  75% {
+    right: 0px;
+    top: 300px;
+  }
+  100% {
+    right: 300px;
+    top: 300px;
+    border-radius: 50%;
+  }
 }

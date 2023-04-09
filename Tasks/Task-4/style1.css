@@ -1,0 +1,176 @@
+.animation_example1 {
+  border: 2px solid black;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  animation-name: textanimation1;
+  animation-duration: 10s;
+  position: relative;
+}
+.animations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.animation_example2 {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  animation-name: textanimation2;
+  animation-duration: 10s;
+}
+.animation_example3 {
+  border: 2px solid black;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  animation-name: textanimation3;
+  animation-duration: 10s;
+  position: relative;
+}
+.aqua_text1 {
+  animation-name: p_aqua_animation;
+  animation-duration: 10s;
+}
+.purple_text1 {
+  animation-name: p_purple_animation;
+  animation-duration: 10s;
+}
+.aqua_text2 {
+  animation-name: h_aqua_animation;
+  animation-duration: 10s;
+}
+.purple_text2 {
+  animation-name: h_purple_animation;
+  animation-duration: 10s;
+}
+@keyframes p_aqua_animation {
+  0% {
+    color: black;
+  }
+  25% {
+    color: aquamarine;
+  }
+  50% {
+    color: rgb(101, 248, 199);
+  }
+  75% {
+    color: rgb(80, 253, 195);
+  }
+  100% {
+    color: white;
+  }
+}
+@keyframes p_purple_animation {
+  0% {
+    color: black;
+  }
+  25% {
+    color: rgb(234, 127, 255);
+  }
+  50% {
+    color: rgb(228, 110, 252);
+  }
+  75% {
+    color: rgb(221, 79, 250);
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes h_aqua_animation {
+  0% {
+    color: white;
+  }
+  25% {
+    color: aquamarine;
+  }
+  50% {
+    color: rgb(101, 248, 199);
+  }
+  75% {
+    color: rgb(80, 253, 195);
+  }
+  100% {
+    color: black;
+  }
+}
+@keyframes h_purple_animation {
+  0% {
+    color: white;
+  }
+  25% {
+    color: rgb(234, 127, 255);
+  }
+  50% {
+    color: rgb(228, 110, 252);
+  }
+  75% {
+    color: rgb(221, 79, 250);
+  }
+  100% {
+    color: black;
+  }
+}
+@keyframes textanimation1 {
+  0% {
+    left: 0px;
+    top: 0px;
+    border-color: aqua;
+    background-color: white;
+  }
+  25% {
+    background-color: aquamarine;
+  }
+  50% {
+    background-color: rgb(101, 248, 199);
+  }
+  75% {
+    background-color: rgb(80, 253, 195);
+  }
+  100% {
+    background-color: white;
+    border-right: white;
+
+    left: 500px;
+
+    top: 0px;
+  }
+}
+@keyframes textanimation3 {
+  0% {
+    right: 0px;
+    top: 0px;
+    border-color: rgb(202, 13, 240);
+    background-color: white;
+  }
+  25% {
+    background-color: rgb(234, 127, 255);
+  }
+  50% {
+    background-color: rgb(228, 110, 252);
+  }
+  75% {
+    background-color: rgb(221, 79, 250);
+  }
+  100% {
+    background-color: white;
+    border-left: white;
+
+    right: 500px;
+    top: 0px;
+  }
+}
+@keyframes textanimation2 {
+  from {
+    border-color: black;
+  }
+  to {
+    border-color: white;
+  }
+}
