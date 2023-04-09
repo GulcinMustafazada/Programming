@@ -92,8 +92,7 @@ form {
   margin: 4px 2px;
   cursor: pointer;
 }
-.login_btn:hover,
-.login_btn:active {
+.login_btn:hover {
   font-size: 125%;
 }
 .facebook {
