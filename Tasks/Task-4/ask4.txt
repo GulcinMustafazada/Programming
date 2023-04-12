@@ -1,0 +1,3 @@
+1.Position nedir ve nece isledirlir
+2.z-index ne ucun isledirlir
+3position novleri ferqleri nedir

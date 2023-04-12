@@ -1,0 +1,8 @@
+Sass nedir?
+ Sass css üçün bir preprosessordur. Sass daha praktik kodlar yazmağımıza kömək edir. 
+ Yəni bu o deməkdir ki, css-də yazdığımız
+ kodları daha qısa , yığcam hala gətirirərək daha praktik kod yazmağımıza imkan verir. Məsələn css-də təkrar istifadə
+  edilən rənglər
+ və ya kod blokları olur ki, bu da böyük layihələrdə çətinliklər yaradır və daha çox vaxt sərfinə səbəb olur.
+ Ancaq Sassla biz bu kodları bir yerə toplaya bilərik və lazm olanda istifadə edərik. Eyni zamanda css -də olmayan
+ funksiyalarla biz sassda hesablamalarda apara bilərik , buda css-i daha çox proqramlaşdırma dilinə bənzədir.
