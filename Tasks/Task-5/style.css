@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  text-align: center;
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.img1 {
+  width: 200px;
+  height: 200px;
+}
+.img1 img {
+  width: 100%;
+  height: 100%;
+}
+.stickyclass {
+  width: 100%;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 30px;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* position: -webkit-sticky; */
+  position: sticky;
+  top: 0;
+  background-color: aqua;
+}
+.text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
