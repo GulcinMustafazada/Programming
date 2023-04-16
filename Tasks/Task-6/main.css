@@ -27,4 +27,13 @@
   font-size: 30px;
   color: rgb(140, 0, 255);
   text-align: center;
+}
+
+.about2 {
+  width: 100%;
+}
+.about2 p {
+  font-size: 30px;
+  color: aqua;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

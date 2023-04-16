@@ -1,5 +1,5 @@
-//Sass variables, nesting
-
+//Sass variables, nesting,modules
+@use "_base";
 $main-font: Helvetica, sans-serif;
 $second-font: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 $main-color: black;
@@ -7,9 +7,9 @@ $second-color: rgb(140, 0, 255);
 $main-width: 100%;
 
 .header {
-    background-color: $second-color;
-    position: sticky;
-    top:0px;
+  background-color: $second-color;
+  position: sticky;
+  top: 0px;
   h1 {
     text-align: center;
     color: $main-color;
@@ -35,4 +35,14 @@ $main-width: 100%;
     }
   }
 }
+
 // sass modules
+
+.about2 {
+  width: $main-width;
+  p {
+    font-size: base.$main-font-size;
+    color: base.$third-color;
+    text-align: center;
+  }
+}
