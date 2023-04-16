@@ -1,0 +1,30 @@
+.header {
+  background-color: rgb(140, 0, 255);
+  position: sticky;
+  top: 0px;
+}
+.header h1 {
+  text-align: center;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.first-place {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.first-place .image {
+  width: 100%;
+}
+.first-place .image img {
+  width: 100%;
+}
+.first-place .about {
+  width: 100%;
+}
+.first-place .about p {
+  font-size: 30px;
+  color: rgb(140, 0, 255);
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
