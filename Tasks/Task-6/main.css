@@ -36,4 +36,28 @@
   font-size: 30px;
   color: aqua;
   text-align: center;
+}
+
+.boxs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.third-box, .second-box, .first-box {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.first-box {
+  background-color: aqua;
+}
+
+.second-box {
+  background-color: red;
+}
+
+.third-box {
+  background-color: green;
 }/*# sourceMappingURL=main.css.map */

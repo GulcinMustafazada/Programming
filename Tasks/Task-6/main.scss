@@ -1,5 +1,6 @@
 //Sass variables, nesting,modules
 @use "_base";
+
 $main-font: Helvetica, sans-serif;
 $second-font: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 $main-color: black;
@@ -45,4 +46,27 @@ $main-width: 100%;
     color: base.$third-color;
     text-align: center;
   }
+}
+// sass extend
+.boxs{
+  display:flex;
+  justify-content: space-around;
+}
+%box-style{
+border-radius: 50%;
+height:200px;
+width:200px;
+border:1px solid black;
+}
+.first-box{
+  @extend%box-style;
+  background-color: aqua;
+}
+.second-box{
+  @extend%box-style;
+  background-color: red;
+}
+.third-box{
+  @extend%box-style;
+  background-color: green;
 }
